@@ -853,5 +853,18 @@ body {
   font-size: 15px;
   color: #68696b;
   margin-bottom: 5px;
-
+}
+.plans-register-btn{
+  display: flex;
+  justify-content: center;
+  padding: 14px 0px;
+  margin-top: 30px;
+  border: 1px solid black;
+  align-items: center;
+  background-color: #1a6aaf;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 30px;
+  
 }

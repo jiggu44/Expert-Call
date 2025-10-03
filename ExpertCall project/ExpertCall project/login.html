@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sign-up-container">
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="./assets/IRSLogics-logo.png" alt="irs-logo" />
+        </div>
+        <div class="menu-toggle">☰</div>
+        <div class="underline"></div>
+        <ul class="nav-items">
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="#">Plans and Pricing</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="./login.html" class="sign-in-btn">Sign In</a></li>
+        </ul>
+      </nav>
+      <div class="sign-up-hero-container">
+        <div class="sign-up-hero-section">
+          <div class="sign-up-header-content">
+            <h1 class="sign-up-title">Welcome Back</h1>
+            <p class="sign-up-description">
+              Enter your sign in credentials and get started
+            </p>
+          </div>
+          <div class="input-email-container">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="sign-up-inputs"
+            />
+            <i class="fa-solid fa-envelope" class="email-icon"></i>
+          </div>
+          <div class="input-password-container">
+            <input
+              type="password"
+              placeholder="Enter your password"
+              class="sign-up-inputs"
+            />
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="sign-up-input-items">
+            <div class="remember-me-container">
+              <input type="checkbox" name="remember" value="remember me" />
+              <label> Remember me</label>
+            </div>
+            <a href="#" class="forget-password">Forget Password?</a>
+          </div>
+          <div class="sign-up-buttons">
+            <a href="#" class="login-sign-in-btn">Sign in</a>
+            <a href="#" class="login-sign-in-google-btn">
+              <img src="./assets/google-logo.png" alt="google-logo" />Sign in
+              with Google</a
+            >
+            <p>Don't have an account?<a href="#">Sign up</a></p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-section">
+        <p>&copy; 2022 - ExpertCall</p>
+      </footer>
+    </section>
+  </body>
+</html>

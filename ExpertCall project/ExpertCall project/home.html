@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="body-container">
+      <nav class="nav-bar">
+        <div class="logo">
+          <img src="./assets/IRSLogics-logo.png" alt="irs-logo" />
+        </div>
+        <div class="menu-toggle">☰</div>
+        <div class="underline"></div>
+        <ul class="nav-items">
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li><a href="#">Plans and Pricing</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="./login.html" class="sign-in-btn">Sign In</a></li>
+        </ul>
+      </nav>
+      <section class="hero-section">
+        <div class="background-layer-1">
+          <div class="background-layer-2">
+            <div class="landing-section-row">
+              <div class="landing-left-column">
+                <img src="./assets/home-banner-img.png" alt="home-img" />
+                <span class="shape triangle-1"></span>
+                <span class="shape triangle-2"></span>
+                <span class="shape semi-1"></span>
+                <span class="shape semi-2"></span>
+              </div>
+              <div class="landing-right-column">
+                <h1>Amazing Platform For Productive Meetings And Calls</h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <div class="home-buttons">
+                  <button class="free-trial-btn">Free Trail</button>
+                  <button class="register-btn">Register Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-section">
+        <p>&copy; 2022 - ExpertCall</p>
+      </footer>
+    </section>
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $(".nav-items").slideToggle(300);
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style.css"/>
+     <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="body-container">
+      <div class="body-section">
+          <nav class="nav-bar">
+            <div class="logo">
+              <img src="./assets/IRSLogics-logo.png" alt="irs-logo" />
+            </div>
+            <div class="menu-toggle">☰</div>
+            <div class="underline"></div>
+            <ul class="nav-items">
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="#">Plans and Pricing</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+              <li><a href="./login.html" class="sign-in-btn">Sign In</a></li>
+            </ul>
+          </nav>
+       
+        <section class="contact-us-hero-section">
+         <div class="contact-header">
+            <h1>Contact Us</h1>
+            <p>Ask us anything we will be there for you</p>
+          </div>
+        
+            <div class="landing-section-row">
+              <div class="contact-us-landing-section">
+                <div class="landing-left-column">
+                  <div class="contact-us-img-container">
+                    <img
+                    src="./assets/contact-us-banner.png"
+                    alt="contact-us-banner-img"
+                    />
+                  </div>
+                  <div class="contact-details">
+                    <div class="phone-details">
+                      <h3>Phone No.:</h3>
+                      <p>+91-9611980111</p>
+                      <p>080 3256 3997</p>
+                    </div>
+
+                    <div class="address-details">
+                      <h2>Address.:</h2>
+                      <p>
+                        C 502, 4th C Cross Rd, HRBR Layout 2nd Block, HRBR Layout,
+                        Kalyan Nagar, Bengaluru, Karnataka 560043
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-right-column">
+                  <form class="form-section">
+                     <h2>Send us a message</h2>
+                     <label class="fullnmae">Full Name :</label>
+                     <input type="text" placeholder="Your Name" />
+                     <label class="email">Email Id :</label>
+                     <input type="email" placeholder="Your@email.com" />
+                     <label class="message">Message :</label>
+                     <textarea
+                        name="message"
+                        rows="5"
+                        cols="5"
+                        placeholder="Type here"
+                      ></textarea>
+                    <div class="contact-buttons">
+                       <button class="cancel-btn">Cancel</button>
+                       <button class="submit-btn">Sumbit</button>
+                    </div>
+                  </form>
+                 </div>
+              </div>
+            </div>
+        </section>
+          <footer class="footer-section">
+      <p>&copy; 2022 - ExpertCall</p>
+    </footer>
+    </section>
+  
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function () {
+                $(".nav-items").slideToggle(300);
+            })
+          })
+        
+    </script>
+  </body>
+</html>
